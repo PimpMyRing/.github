@@ -38,11 +38,30 @@ You NEED to install Metamask in order to use our homemade SNAP, see [MetaMask](h
 Nb: Do not import any of your main account, this is for test purpose only.
 
 ## Deployed and verified Smart Contracts
+### SBT
 
 | CHAIN     | SMART CONTRACT ADDRESS     |
 |-----------|-----------------------------|
-| Optimism MAINNET  | 0x123...abc                 |
-| Optimism TESTNET   | 0x456...def                 |
-| Base MAINNET   | 0x789...ghi                 |
-| Base TESTNET   | 0x789...ghi                 |
+| Optimism MAINNET  |                 |
+| Optimism TESTNET   | 0x4735435e8d4e9D03b3BcD1299D7102fAb0194bb7                |
+| Base MAINNET   |                  |
+| Base TESTNET   |                 |
+
+### LSAG verifier
+
+| CHAIN     | SMART CONTRACT ADDRESS     |
+|-----------|-----------------------------|
+| Optimism MAINNET  |                 |
+| Optimism TESTNET   |                 |
+| Base MAINNET   |                  |
+| Base TESTNET   |                 |
+
+### DAOofTheRing
+
+| CHAIN     | SMART CONTRACT ADDRESS     |
+|-----------|-----------------------------|
+| Optimism MAINNET  |                 |
+| Optimism TESTNET   |                 |
+| Base MAINNET   |                  |
+| Base TESTNET   |                 |
 
