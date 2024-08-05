@@ -52,7 +52,7 @@ Nb: Do not import any of your main account, this is for test purpose only.
 | CHAIN     | SMART CONTRACT ADDRESS     |
 |-----------|-----------------------------|
 | Optimism MAINNET  |                 |
-| Optimism TESTNET   |  0xB3Be56a14c0c72C0853DFC9f7Ae626875D42A054               |
+| Optimism TESTNET   |  0x3712FAdD9BA7845B810330D278526607caA8c7aF               |
 | Base MAINNET   |                  |
 | Base TESTNET   |                 |
 
@@ -61,7 +61,7 @@ Nb: Do not import any of your main account, this is for test purpose only.
 | CHAIN     | SMART CONTRACT ADDRESS     |
 |-----------|-----------------------------|
 | Optimism MAINNET  |                 |
-| Optimism TESTNET   |                 |
+| Optimism TESTNET   |  0x2805Ba5a272f7e2c38217ce9F2D8cBf93cA20126               |
 | Base MAINNET   |                  |
 | Base TESTNET   |                 |
 
