@@ -7,6 +7,7 @@ DAO of the Ring is a tool for Decentralized Autonomous Organizations (DAOs) that
 - **Privacy-Preserving Authentication:** DAO of the Ring leverages ring signatures to enable token-gated authentication, allowing members to interact with the DAO without revealing their individual identities.
 - **Secure Voting System:** The project also innovates by incorporating ring signatures into the DAO's voting and proposal system, enhancing the privacy and security of the decision-making process.
 -  **Decentralized Governance:** DAO of the Ring is designed to empower DAO members with a decentralized governance model, where decisions are made collectively and transparently.
+-  **Account abstraction for gasless and privacy preserving transactions:** The project also includes account abstraction to allow users to interact with the DAO without needing to hold any native tokens. It also allow users to broadcast their votes / proposals / messages without revealing their address / identity.
 -  **Metamask Snap Integration:** DAO of the Ring leverages [Cypher Lab's (it's us btw !) Metamask Snap](https://snaps.metamask.io/snap/npm/cypher-laboratory/alicesring-snap/) extension to seamlessly integrate the ring signature process into the user experience, providing a familiar and secure way for members to authenticate and vote within the DAO.
 
 -  ## Ring Signatures 
@@ -22,6 +23,20 @@ Ring signatures have applications in areas like confidential transactions, whist
 
 For this project, we utilize [Cypher Lab's (it's us btw !) Metamask Snap](https://snaps.metamask.io/snap/npm/cypher-laboratory/alicesring-snap/) based on [Alice's Ring LSAG TS library](https://github.com/Cypher-Laboratory/Alice-s-Ring-LSAG-TS), a TypeScript implementation of the ring signature algorithm. 
 
+## Make DAOs Confidential Social Applications
+
+DAO of the Ring aims to transform DAOs into confidential social applications, where privacy and security are paramount. By leveraging advanced cryptographic techniques, such as ring signatures, DAO of the Ring ensures that members can participate in discussions, voting, and other governance activities without compromising their privacy. The following features demonstrate how DAO of the Ring enhances confidentiality within a DAO:
+
+- **Private Communication Channels:** The toolkit provides private and confidential communication channels for DAO members, ensuring that discussions and collaborations within the DAO remain confidential. These channels are secured using ring signatures, allowing members to contribute without revealing their identities.
+  
+- **Confidential Voting and Proposal Submissions:** DAO of the Ring enables confidential voting and proposal submissions, where members can privately cast their votes or submit proposals. This ensures that the decision-making process is free from undue influence and that members can express their opinions without fear of retaliation.
+  
+- **Private Member Interactions:** Beyond voting and governance, DAO of the Ring allows members to interact privately within the DAO ecosystem. This includes sending messages, sharing documents, and engaging in group discussions, all while maintaining anonymity through ring signature technology.
+
+By integrating these privacy-preserving features, DAO of the Ring not only protects the identities of its members but also fosters a more open and honest environment for collaboration and decision-making. This approach empowers DAOs to operate as confidential social applications, where privacy is respected, and members can freely participate in the governance process.
+
+
+
 ## Project Structure :
 
 The project is composed of several key components that work together to provide a secure and privacy-preserving governance solution for decentralized autonomous organizations. 
@@ -33,35 +48,33 @@ The primary goal of the backend is to serve the frontend with the necessary data
 
 ## DEMO :
 
-To use the demo version of Ring DAO you can interact with our app : [COMING SOON]()  
-You NEED to install Metamask in order to use our homemade SNAP, see [MetaMask](https://snaps.metamask.io/snap/npm/cypher-laboratory/alicesring-snap/)  
-Nb: Do not import any of your main account, this is for test purpose only.
+To use the demo version of Ring DAO you can interact with our app : [daoofthering.cypherlab.org](https://daoofthering.cypherlab.org/)  
+You NEED to install Metamask in order to use our homemade SNAP, see [MetaMask Snap](https://snaps.metamask.io/snap/npm/cypher-laboratory/alicesring-snap/)  
+
+> Nb: **Do not import any of your main account, this is for test purpose only.**
 
 ## Deployed and verified Smart Contracts
-### SBT
+### Membership SBT
 
 | CHAIN     | SMART CONTRACT ADDRESS     |
 |-----------|-----------------------------|
-| Optimism MAINNET  |                 |
-| Optimism TESTNET   | 0x4735435e8d4e9D03b3BcD1299D7102fAb0194bb7                |
-| Base MAINNET   |                  |
-| Base TESTNET   |                 |
+| Optimism MAINNET  | [0xc5Bc1b10671d2Db2734EC81edc7320f61D8CC4A1](https://optimistic.etherscan.io/address/0xc5Bc1b10671d2Db2734EC81edc7320f61D8CC4A1#code) |
+| Optimism TESTNET   | [0x005519c6d1569d875f3db28fd7d40b73a235ce18](https://sepolia-optimism.etherscan.io/address/0x005519c6d1569d875f3db28fd7d40b73a235ce18#code) |
+| Base MAINNET   | [0xFeaa7962b200695D411F38C13B330Df855D12f59](https://basescan.org/address/0xFeaa7962b200695D411F38C13B330Df855D12f59#code) |
 
 ### LSAG verifier
 
 | CHAIN     | SMART CONTRACT ADDRESS     |
 |-----------|-----------------------------|
-| Optimism MAINNET  |                 |
-| Optimism TESTNET   |  0x3712FAdD9BA7845B810330D278526607caA8c7aF               |
-| Base MAINNET   |                  |
-| Base TESTNET   |                 |
+| Optimism MAINNET  | [0x7fEa7DB327836DF00221c8288B9BBd1f812dFb33](https://optimistic.etherscan.io/address/0x7fEa7DB327836DF00221c8288B9BBd1f812dFb33#code) |
+| Optimism TESTNET   | [0xbEeB29483e810290B2610593B30C589672CCE3c8](https://sepolia-optimism.etherscan.io/address/0xbEeB29483e810290B2610593B30C589672CCE3c8#code) |
+| Base MAINNET   | [0x7709708E7Aff121164bBA336aEb9653f7467cC2A](https://basescan.org/address/0x7709708E7Aff121164bBA336aEb9653f7467cC2A#code) |
 
-### DAOofTheRing
+### Governance contract
 
 | CHAIN     | SMART CONTRACT ADDRESS     |
 |-----------|-----------------------------|
-| Optimism MAINNET  |                 |
-| Optimism TESTNET   |  0x2805Ba5a272f7e2c38217ce9F2D8cBf93cA20126               |
-| Base MAINNET   |                  |
-| Base TESTNET   |                 |
+| Optimism MAINNET  |[0xF0d7935a33b6126115D21Ec49403e4ce378A42Dd](https://optimistic.etherscan.io/address/0xF0d7935a33b6126115D21Ec49403e4ce378A42Dd#code)|
+| Optimism TESTNET   |[0xfA41c676566422887f29FD095Fb8E8FdB2396548](https://sepolia-optimism.etherscan.io/address/0xfA41c676566422887f29FD095Fb8E8FdB2396548#code)|
+| Base MAINNET   |[0x7a8a5b5Fd0880DF2118c3360D9c013dDA754FacF](https://basescan.org/address/0x7a8a5b5Fd0880DF2118c3360D9c013dDA754FacF#code)|
 
